@@ -4,13 +4,15 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -63,23 +65,26 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
-        view.setBackgroundColor(Color.parseColor("#20FF0000"));
+//        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
+//        view.setBackgroundColor(Color.parseColor("#20FF0000"));
+//
+//        LinearLayout layout = new LinearLayout(getContext());
+//        layout.setOrientation(LinearLayout.VERTICAL);
+//
+//        TextView textView = new TextView(getContext());
+//        ImageView imageView = new ImageView(getContext());
+//
+//        textView.setText("Thursday");
+//        textView.setTextColor(Color.BLACK);
+//
+//        imageView.setImageResource(R.drawable.rsweather);
+//
+//        layout.addView(textView);
+//        layout.addView(imageView);
 
-
-            LinearLayout layout = new LinearLayout(getContext());
-            layout.setOrientation(LinearLayout.VERTICAL);
-
-            TextView textView = new TextView(getContext());
-            ImageView imageView = new ImageView(getContext());
-
-            textView.setText("Thursday");
-            imageView.setImageResource(R.drawable.icon_set);
-
-            layout.addView(textView);
-            layout.addView(imageView);
-
-
-        return layout;
+//        return layout;
+        return inflater.inflate(R.layout.fragment_forecast, container, false);
     }
+
+
 }
