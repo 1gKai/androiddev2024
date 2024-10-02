@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/Sunny" />
+            android:text="@string/Partlycloudy" />
     </LinearLayout>
 
     <LinearLayout
@@ -62,7 +62,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/rainy"
+            android:text="@string/Snowers"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -92,7 +92,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/rainy"
+            android:text="@string/ScatteredSnowers"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -115,14 +115,14 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/storm"
+            android:src="@drawable/scatteredthunder"
             android:scaleType="fitCenter"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Storm"
+            android:text="@string/MostlyCloudy"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -153,7 +153,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Sunny"
+            android:text="@string/MostlyCloudy"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -184,7 +184,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Sunny"
+            android:text="@string/Partlycloudy"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -207,13 +207,14 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
+            android:src="@drawable/thunderstorms"
             android:scaleType="fitCenter"
-            android:src="@drawable/storm" />
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Storm"
+            android:text="@string/Thunderstorms"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -236,7 +237,7 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/cloudy"
+            android:src="@drawable/scatteredthunder"
             android:scaleType="fitCenter"
             />
 
@@ -245,7 +246,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/Cloudy" />
+            android:text="@string/Scatteredthunderstorms" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -271,7 +272,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/rainy"
+            android:text="@string/Snowers"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
@@ -294,14 +295,14 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/storm"
+            android:src="@drawable/scatteredthunder"
             android:scaleType="fitCenter"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Storm"
+            android:text="@string/Scatteredthunderstorms"
             android:layout_weight="1"
             android:gravity="center_vertical"
             />
